@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test01/test01"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0000ff",
+    "navigationBarTitleText": "移通咸鱼",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ff0000"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
