@@ -1,2 +1,4 @@
 <!--pages/trend/index.wxml-->
 <text>pages/trend/index.wxml</text>
+<view>text标签相当于 span，行内块元素</view>
+<view>view标签相当于 div，行元素，块级元素</view>
