@@ -12,16 +12,20 @@
     "pages/feedback/index",
     "pages/login/index",
     "pages/auth/index",
-    "pages/pay/index"
+    "pages/pay/index",
+    "pages/trend/index",
+    "pages/announce/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ff652f",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffe60f",
     "navigationBarTitleText": "移通二手交易",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ffe60f"
   },
   "tabBar": {
-    "selectedColor": "#ff652f",
+    "selectedColor": "#000",
     "color": "#272727",
     "backgroundColor": "fafafa",
     "position": "bottom",
@@ -34,10 +38,16 @@
         "selectedIconPath": "icons/home-s.png"
       },
       {
-        "pagePath": "pages/category/index",
-        "text": "分类",
-        "iconPath": "icons/category.png",
-        "selectedIconPath": "icons/category-s.png"
+        "pagePath": "pages/trend/index",
+        "text": "动态",
+        "iconPath": "icons/trend.png",
+        "selectedIconPath": "icons/trend-s.png"
+      },
+      {
+        "pagePath": "pages/announce/index",
+        "text": "发布",
+        "iconPath": "icons/release.png",
+        "selectedIconPath": "icons/release-s.png"
       },
       {
         "pagePath": "pages/cart/index",
@@ -48,8 +58,8 @@
       {
         "pagePath": "pages/user/index",
         "text": "我的",
-        "iconPath": "icons/my.png",
-        "selectedIconPath": "icons/my-s.png"
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user-s.png"
       }
     ]
   },
