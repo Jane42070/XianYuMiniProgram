@@ -66,5 +66,13 @@ Page({
         floorList: result.data.message
       })
     })
+  },
+  onShow: function(){
+    if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+          selected: 0
+        })
+      }
   }
 })
